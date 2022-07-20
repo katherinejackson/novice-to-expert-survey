@@ -1,0 +1,102 @@
+{
+    "title": "Questionnaire",
+    "instructions": "Please answer the following questions:",
+    "code": "",
+    "questions": [
+        {
+            "questiontype": "textview",
+            "title": "Background",
+            "text": "We are interested in studying how users learn to use computer applications. Specifically, when there are multiple ways of completing the same task, how do users learn the 'better/expert' ways.  For example, using the keyboard shortcut to save a document instead of selecting 'save' from the menu is typically a faster way of accomplishing the same task. We are interested in learning what tools/methods users employ to learn these 'better/expert' techniques."
+        },
+        {
+            "questiontype": "field",
+            "instructions": "Do you use computer applications frequently for work? If so, which applications?",
+            "placeholder": "",
+            "id": "work_apps"
+        },
+        {
+            "questiontype": "field",
+            "instructions": "Do you use computer applications frequently for hobby/leisure activities? If so, which applications? (ex: video games, Photoshop)",
+            "placeholder": "",
+            "id": "leisure_apps"
+        },
+        {
+            "questiontype": "field",
+            "instructions": "Do you consider yourself to be proficient at using any computer applications? If so which one(s)?",
+            "placeholder": "",
+            "id": "proficient_apps"
+        },
+        {
+            "questiontype": "field",
+            "instructions": "Do you try to learn shortcuts or better ways of accomplishing the same task when you use computer applications repeatedly?",
+            "placeholder": "",
+            "id": "motivated"
+        },
+        {
+            "questiontype": "field",
+            "instructions": "When you consider applications that you frequently use, how often do you learn something new about the application?",
+            "placeholder": "",
+            "id": "vocab_extension"
+        },
+        {
+            "questiontype": "field",
+            "instructions": "When you consider applications that you frequently use, how often do you learn a better way of accomplishing the same task?",
+            "placeholder": "",
+            "id": "intermodal_development"
+        },
+        {
+            "questiontype": "checklist",
+            "instructions": "What are methods you use to learn better/faster ways of using the application? Check all that apply:",
+            "id": "tool_checklist",
+            "shuffle": false,
+            "questions": [
+                {
+                    "id": "cl_8",
+                    "text": "Saw it in menus"
+                },
+                {
+                    "id": "cl_9",
+                    "text": "Saw it in hover help"
+                },
+                {
+                    "id": "cl_3",
+                    "text": "Tip of the day"
+                },
+                {
+                    "id": "cl_7",
+                    "text": "System suggestion other than tip of the day"
+                },
+                {
+                    "id": "cl_4",
+                    "text": "System help page or manual"
+                },
+                {
+                    "id": "cl_5",
+                    "text": "Someone told me about it"
+                },
+                {
+                    "id": "cl_2",
+                    "text": "Saw another person doing it"
+                },
+                {
+                    "id": "cl_1",
+                    "text": "YouTube tutorial"
+                },
+                {
+                    "id": "cl_10",
+                    "text": "Saw it on social media"
+                },
+                {
+                    "id": "cl_6",
+                    "text": "Read about it in an article"
+                }
+            ]
+        },
+        {
+            "questiontype": "field",
+            "instructions": "Are there any other methods you use to improve which are not listed above?",
+            "placeholder": "",
+            "id": "other"
+        }
+    ]
+}
