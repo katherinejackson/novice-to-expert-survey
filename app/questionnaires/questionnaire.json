@@ -34,13 +34,13 @@
         },
         {
             "questiontype": "field",
-            "instructions": "When you consider applications that you frequently use, how often do you learn something new about the application?",
+            "instructions": "When you consider applications that you frequently use, how many times a month do you learn something new about the application?",
             "placeholder": "",
             "id": "vocab_extension"
         },
         {
             "questiontype": "field",
-            "instructions": "When you consider applications that you frequently use, how often do you learn a better way of accomplishing the same task?",
+            "instructions": "When you consider applications that you frequently use, how many times a month do you learn a better way of accomplishing the same task?",
             "placeholder": "",
             "id": "intermodal_development"
         },
@@ -97,6 +97,12 @@
             "instructions": "Are there any other methods you use to improve which are not listed above?",
             "placeholder": "",
             "id": "other"
+        },
+        {
+            "questiontype": "multi_field",
+            "instructions": "Please provide an example of a time when you learned a new function or a better way of doing a task in an application? State which application it was and what method you used to learn.",
+            "placeholder": "",
+            "id": "example"
         }
     ]
 }
