@@ -40,36 +40,18 @@
             ]
         },
         {
-            "questiontype": "drop_down",
-            "instructions": "When you consider applications that you frequently use, how often do you learn something new about the application?",
+            "questiontype": "field",
+            "instructions": "When you consider applications that you frequently use, how many times a year do you learn something new about the application?",
             "id": "vocab_extension",
-            "required": true,
-            "items":[
-                "Every day",
-                "2-3 times a week",
-                "Once a week",
-                "2-3 times a month",
-                "Once a month",
-                "2-3 times a year",
-                "Once a year",
-                "Never"
-            ]
+            "placeholder": "",
+            "required": true
         },
         {
-            "questiontype": "drop_down",
-            "instructions": "When you consider applications that you frequently use, how often do you learn a better way of accomplishing the same task?",
+            "questiontype": "field",
+            "instructions": "When you consider applications that you frequently use, how many times a year do you learn a better way of accomplishing the same task?",
             "id": "intermodal_development",
             "required": true,
-            "items":[
-                "Every day",
-                "2-3 times a week",
-                "Once a week",
-                "2-3 times a month",
-                "Once a month",
-                "2-3 times a year",
-                "Once a year",
-                "Never"
-            ]
+            "placeholder": ""
         },
         {
             "questiontype": "checklist",
