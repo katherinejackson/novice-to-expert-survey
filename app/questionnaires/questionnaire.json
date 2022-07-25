@@ -46,9 +46,12 @@
             "required": true,
             "items":[
                 "Every day",
-                "A couple times a week",
-                "A couple times a month",
-                "A couple times a year",
+                "2-3 times a week",
+                "Once a week",
+                "2-3 times a month",
+                "Once a month",
+                "2-3 times a year",
+                "Once a year",
                 "Never"
             ]
         },
@@ -59,9 +62,12 @@
             "required": true,
             "items":[
                 "Every day",
-                "A couple times a week",
-                "A couple times a month",
-                "A couple times a year",
+                "2-3 times a week",
+                "Once a week",
+                "2-3 times a month",
+                "Once a month",
+                "2-3 times a year",
+                "Once a year",
                 "Never"
             ]
         },
