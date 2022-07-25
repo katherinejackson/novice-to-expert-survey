@@ -12,97 +12,126 @@
             "questiontype": "field",
             "instructions": "Do you use computer applications frequently for work? If so, which applications?",
             "placeholder": "",
+            "required": true,
             "id": "work_apps"
         },
         {
             "questiontype": "field",
             "instructions": "Do you use computer applications frequently for hobby/leisure activities? If so, which applications? (ex: video games, Photoshop)",
             "placeholder": "",
+            "required": true,
             "id": "leisure_apps"
         },
         {
             "questiontype": "field",
-            "instructions": "Do you consider yourself to be proficient at using any computer applications? If so which one(s)?",
+            "instructions": "Do you consider yourself to be proficient (very skilled) at using any computer applications? If so which one(s)?",
             "placeholder": "",
             "id": "proficient_apps"
         },
         {
-            "questiontype": "field",
+            "questiontype": "radiolist",
             "instructions": "Do you try to learn shortcuts or better ways of accomplishing the same task when you use computer applications repeatedly?",
-            "placeholder": "",
-            "id": "motivated"
+            "id": "motivated",
+            "required": true,
+            "labels":[
+                "Yes",
+                "Sometimes",
+                "No"
+            ]
         },
         {
-            "questiontype": "field",
-            "instructions": "When you consider applications that you frequently use, how many times a month do you learn something new about the application?",
-            "placeholder": "",
-            "id": "vocab_extension"
+            "questiontype": "drop_down",
+            "instructions": "When you consider applications that you frequently use, how often do you learn something new about the application?",
+            "id": "vocab_extension",
+            "required": true,
+            "items":[
+                "Every day",
+                "A couple times a week",
+                "A couple times a month",
+                "A couple times a year",
+                "Never"
+            ]
         },
         {
-            "questiontype": "field",
-            "instructions": "When you consider applications that you frequently use, how many times a month do you learn a better way of accomplishing the same task?",
-            "placeholder": "",
-            "id": "intermodal_development"
+            "questiontype": "drop_down",
+            "instructions": "When you consider applications that you frequently use, how often do you learn a better way of accomplishing the same task?",
+            "id": "intermodal_development",
+            "required": true,
+            "items":[
+                "Every day",
+                "A couple times a week",
+                "A couple times a month",
+                "A couple times a year",
+                "Never"
+            ]
         },
         {
             "questiontype": "checklist",
             "instructions": "What are methods you use to learn better/faster ways of using the application? Check all that apply:",
             "id": "tool_checklist",
             "shuffle": false,
+            "required": true,
             "questions": [
                 {
-                    "id": "cl_8",
+                    "id": "menu",
                     "text": "Saw it in menus"
                 },
                 {
-                    "id": "cl_9",
+                    "id": "hover",
                     "text": "Saw it in hover help"
                 },
                 {
-                    "id": "cl_3",
+                    "id": "tip",
                     "text": "Tip of the day"
                 },
                 {
-                    "id": "cl_7",
+                    "id": "system_suggestion",
                     "text": "System suggestion other than tip of the day"
                 },
                 {
-                    "id": "cl_4",
+                    "id": "help_page",
                     "text": "System help page or manual"
                 },
                 {
-                    "id": "cl_5",
+                    "id": "verbal",
                     "text": "Someone told me about it"
                 },
                 {
-                    "id": "cl_2",
+                    "id": "visual",
                     "text": "Saw another person doing it"
                 },
                 {
-                    "id": "cl_1",
+                    "id": "youtube",
                     "text": "YouTube tutorial"
                 },
                 {
-                    "id": "cl_10",
+                    "id": "social_media",
                     "text": "Saw it on social media"
                 },
                 {
-                    "id": "cl_6",
+                    "id": "article",
                     "text": "Read about it in an article"
                 }
             ]
         },
         {
             "questiontype": "field",
-            "instructions": "Are there any other methods you use to improve which are not listed above?",
+            "instructions": "Are there any other methods you use to improve which are not listed above? (Optional)",
             "placeholder": "",
             "id": "other"
         },
         {
             "questiontype": "multi_field",
-            "instructions": "Please provide an example of a time when you learned a new function or a better way of doing a task in an application? State which application it was and what method you used to learn.",
+            "instructions": "Think of a time when you learned a new function or a better way of doing a task.  Please state the application, what method you used to learn this new information, and give a brief description of what you learned.",
             "placeholder": "",
+            "required": true,
             "id": "example"
+        },
+        {
+            "questiontype": "field",
+            "instructions": "Do you have any other comments? (Optional)",
+            "placeholder": "",
+            "id": "comments"
         }
     ]
 }
