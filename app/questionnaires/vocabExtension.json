@@ -1,0 +1,98 @@
+{
+    "title": "Questionnaire",
+    "instructions": "Please answer the following questions:",
+    "code": "",
+    "questions": [
+        {
+            "questiontype": "textview",
+            "title": "Background",
+            "text": "<p>We are interested in studying how users learn to use computer applications. Specifically, after a user has become competent enough at using an application to no longer be considered a novice, how do they continue to learn new things about the application they are using.</p><br/><p>For example, many people use Microsoft Word to complete their work, but not all users are aware of all the functionality Microsoft Word provides such as a bibliography manager, the ability to create charts, or the ability to find and replace all instances of a term. </p><br/><p>We are interested in studying how people continue to learn about the functionality of applications, after they have already achieved competence.</p>"
+        },
+        {
+            "questiontype": "radiolist",
+            "instructions": "Do you try to learn new functionality when you use computer applications repeatedly?",
+            "id": "motivated",
+            "required": true,
+            "labels":[
+                "Yes",
+                "Sometimes",
+                "No"
+            ]
+        },
+        {
+            "questiontype": "field",
+            "instructions": "When you consider applications that you frequently use, how many times a year do you learn something new about the application?",
+            "id": "frequency",
+            "required": true,
+            "placeholder": ""
+        },
+        {
+            "questiontype": "checklist",
+            "instructions": "What are methods you use to learn new functionality? Check all that apply:",
+            "id": "tool_checklist",
+            "shuffle": false,
+            "required": true,
+            "questions": [
+                {
+                    "id": "menu",
+                    "text": "Saw it in menus"
+                },
+                {
+                    "id": "hover",
+                    "text": "Saw it in hover help"
+                },
+                {
+                    "id": "tip",
+                    "text": "Tip of the day"
+                },
+                {
+                    "id": "system_suggestion",
+                    "text": "System suggestion other than tip of the day"
+                },
+                {
+                    "id": "help_page",
+                    "text": "System help page or manual"
+                },
+                {
+                    "id": "verbal",
+                    "text": "Someone told me about it"
+                },
+                {
+                    "id": "visual",
+                    "text": "Saw another person doing it"
+                },
+                {
+                    "id": "youtube",
+                    "text": "YouTube tutorial"
+                },
+                {
+                    "id": "social_media",
+                    "text": "Saw it on social media"
+                },
+                {
+                    "id": "article",
+                    "text": "Read about it in an article"
+                }
+            ]
+        },
+        {
+            "questiontype": "field",
+            "instructions": "Are there any other methods you use to learn which are not listed above? (Optional)",
+            "placeholder": "",
+            "id": "other"
+        },
+        {
+            "questiontype": "multi_field",
+            "instructions": "Think of a time when you learned about a new functionality.  Please state the application, what method you used to learn this new information, and give a brief description of what you learned.",
+            "placeholder": "",
+            "required": true,
+            "id": "example"
+        },
+        {
+            "questiontype": "field",
+            "instructions": "Do you have any other comments? (Optional)",
+            "placeholder": "",
+            "id": "comments"
+        }
+    ]
+}
