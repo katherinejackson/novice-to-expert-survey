@@ -1,0 +1,12 @@
+{
+    "title": "Questionnaire",
+    "instructions": "",
+    "code": "",
+    "questions": [
+        {
+            "questiontype": "textview",
+            "title": "Types of Learning",
+            "text": "<p>We are interested in studying how users become experts/proficient at using computer applications. Speciifically, we are interested in how users: <ol><li>Learn to do the same tasks in better/faster ways</li><li>Learn about new functions that they didn't know an application could do</li></ol></p><p>You will now complete two questionnaires about these two different types of learning."
+        }
+    ]
+}

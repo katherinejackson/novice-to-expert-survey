@@ -5,34 +5,45 @@
     "questions": [
         {
             "questiontype": "textview",
-            "title": "Background",
-            "text": "<p>We are interested in studying how users learn to use computer applications. Specifically, after a user has become competent enough at using an application to no longer be considered a novice, how do they continue to learn new things about the application they are using.</p><br/><p>For example, many people use Microsoft Word to complete their work, but not all users are aware of all the functionality Microsoft Word provides such as a bibliography manager, the ability to create charts, or the ability to find and replace all instances of a term. </p><br/><p>We are interested in studying how people continue to learn about the functionality of applications, after they have already achieved competence.</p>"
+            "title": "Learning application capabilities for the first time",
+            "text": "<p>After a user has become competent enough at using an application to no longer be considered a novice, how do they continue to learn new things about the application they are using.</p><br/><p>For example, many people use Microsoft Word to complete their work, but not all users are aware of functions Microsoft Word provides such as a bibliography manager, the ability to create charts, or the ability to find and replace all instances of a term. </p><br/><p>We are interested in studying how people continue to learn about the functionality of applications, after they have already achieved competence.</p>"
         },
         {
             "questiontype": "radiolist",
-            "instructions": "Do you try to learn new functionality when you use computer applications repeatedly?",
+            "instructions": "On a scale of 1 to 5, how interested are you in learning new functionality when you use computer applications repeatedly?",
             "id": "motivated",
             "required": true,
             "labels":[
-                "Yes",
-                "Sometimes",
-                "No"
+                "1 (not interested)",
+                "2",
+                "3",
+                "4",
+                "5 (very interested)"
             ]
         },
         {
-            "questiontype": "field",
-            "instructions": "When you consider applications that you frequently use, how many times a year do you learn something new about the application?",
+            "questiontype": "num_field",
+            "instructions": "When you consider applications that you frequently use, how many times a month (on average) do you learn something new about the application?",
             "id": "frequency",
             "required": true,
             "placeholder": ""
         },
         {
-            "questiontype": "checklist",
-            "instructions": "What are methods you use to learn new functionality? Check all that apply:",
-            "id": "tool_checklist",
+            "questiontype":"radiogrid",
+            "instructions":"How many times a month (on average) do you use the following methods to learn new capabilities about an application?",
+            "id":"tools",
             "shuffle": false,
-            "required": true,
-            "questions": [
+            "required": "true",
+            "labels":[
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6+"
+            ],
+            "q_text":[
                 {
                     "id": "menu",
                     "text": "Saw it in menus"
@@ -77,7 +88,7 @@
         },
         {
             "questiontype": "field",
-            "instructions": "Are there any other methods you use to learn which are not listed above? (Optional)",
+            "instructions": "Are there any other methods you use to learn about new functions/capabilities, which are not listed above? (Optional)",
             "placeholder": "",
             "id": "other"
         },

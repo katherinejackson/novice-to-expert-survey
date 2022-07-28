@@ -4,24 +4,124 @@
     "code": "",
     "questions": [
         {
-            "questiontype": "field",
-            "instructions": "Do you use computer applications frequently for work? If so, which applications?",
-            "placeholder": "",
-            "required": true,
-            "id": "work_apps"
+            "questiontype": "textview",
+            "title": "Background",
+            "text": "<p>Think about the 3 applications you use the most in your daily life. These applications can be work related (eg: Microsoft Excel) or hobby/leisure related (eg: Photoshop).  Please answer the following about your use of those applications.  </p>"
+        },
+        {
+            "questiontype": "textview",
+            "title": "Application 1",
+            "text": ""
         },
         {
             "questiontype": "field",
-            "instructions": "Do you use computer applications frequently for hobby/leisure activities? If so, which applications? (ex: video games, Photoshop)",
+            "instructions": "What is the name of the application?",
             "placeholder": "",
             "required": true,
-            "id": "leisure_apps"
+            "id": "name_1"
+        },
+        {
+            "questiontype": "num_field",
+            "instructions": "How many hours per week (on average) do you use the application?",
+            "placeholder": "",
+            "required": true,
+            "id": "hours_1"
+        },
+        {
+            "questiontype": "num_field",
+            "instructions": "How many years have you been using the application?",
+            "placeholder": "",
+            "required": true,
+            "id": "years_1"
+        },
+        {
+            "questiontype": "radiolist",
+            "instructions": "How would you rate your level of expertise in the application?",
+            "id": "expertise_1",
+            "required": true,
+            "labels":[
+                "Novice",
+                "Beginner",
+                "Intermediate",
+                "Proficient",
+                "Expert"
+            ]
+        },
+        {
+            "questiontype": "textview",
+            "title": "Application 2",
+            "text": ""
         },
         {
             "questiontype": "field",
-            "instructions": "Do you consider yourself to be proficient (very skilled) at using any computer applications? If so which one(s)?",
+            "instructions": "What is the name of the application?",
             "placeholder": "",
-            "id": "proficient_apps"
+            "id": "name_2"
+        },
+        {
+            "questiontype": "num_field",
+            "instructions": "How many hours per week (on average) do you use the application?",
+            "placeholder": "",
+            "required": true,
+            "id": "hours_2"
+        },
+        {
+            "questiontype": "num_field",
+            "instructions": "How many years have you been using the application?",
+            "placeholder": "",
+            "required": true,
+            "id": "years_2"
+        },
+        {
+            "questiontype": "radiolist",
+            "instructions": "How would you rate your level of expertise in the application?",
+            "id": "expertise_2",
+            "required": true,
+            "labels":[
+                "Novice",
+                "Beginner",
+                "Intermediate",
+                "Proficient",
+                "Expert"
+            ]
+        },
+        {
+            "questiontype": "textview",
+            "title": "Application 3",
+            "text": ""
+        },
+        {
+            "questiontype": "field",
+            "instructions": "What is the name of the application?",
+            "placeholder": "",
+            "id": "name_3"
+        },
+        {
+            "questiontype": "num_field",
+            "instructions": "How many hours per week (on average) do you use the application?",
+            "placeholder": "",
+            "required": true,
+            "id": "hours_3"
+        },
+        {
+            "questiontype": "nim_field",
+            "instructions": "How many years have you been using the application?",
+            "placeholder": "",
+            "required": true,
+            "id": "years_3"
+        },
+        {
+            "questiontype": "radiolist",
+            "instructions": "How would you rate your level of expertise in the application?",
+            "id": "expertise_3",
+            "required": true,
+            "labels":[
+                "Novice",
+                "Beginner",
+                "Intermediate",
+                "Proficient",
+                "Expert"
+            ]
         }
     ]
 }
