@@ -6,7 +6,7 @@
         {
             "questiontype": "textview",
             "title": "Learning better/faster ways of doing the same task",
-            "text": "<p>When there are multiple ways of completing the same task, how do users learn the 'better/expert' ways.  </p><br/><p>For example, using the keyboard shortcut to save a document instead of selecting 'save' from the menu is typically a faster way of accomplishing the same task. </p><br/><p>We are interested in learning what tools/methods users employ to learn these 'better/expert' techniques.</p>"
+            "text": "<p>When there are multiple ways of completing the same task, how do users learn the 'better/expert' ways?  </p><br/><p>For example, using the keyboard shortcut to save a document instead of selecting 'save' from the menu is typically a faster way of accomplishing the same task. </p><br/><p>We are interested in learning what tools/methods users employ to learn these 'better/expert' techniques.</p>"
         },
         {
             "questiontype": "radiolist",

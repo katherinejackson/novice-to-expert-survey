@@ -104,7 +104,7 @@
             "id": "hours_3"
         },
         {
-            "questiontype": "nim_field",
+            "questiontype": "num_field",
             "instructions": "How many years have you been using the application?",
             "placeholder": "",
             "required": true,

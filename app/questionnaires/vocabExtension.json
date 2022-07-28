@@ -5,8 +5,8 @@
     "questions": [
         {
             "questiontype": "textview",
-            "title": "Learning application capabilities for the first time",
-            "text": "<p>After a user has become competent enough at using an application to no longer be considered a novice, how do they continue to learn new things about the application they are using.</p><br/><p>For example, many people use Microsoft Word to complete their work, but not all users are aware of functions Microsoft Word provides such as a bibliography manager, the ability to create charts, or the ability to find and replace all instances of a term. </p><br/><p>We are interested in studying how people continue to learn about the functionality of applications, after they have already achieved competence.</p>"
+            "title": "Learning new functions within an application",
+            "text": "<p>After a user has become competent enough at using an application to no longer be considered a novice, how do they continue to learn about all of the various functionality/capabilities the application has?</p><br/><p>For example, many people use Microsoft Word to complete their work, but not all users are aware of functions Microsoft Word provides such as a bibliography manager, the ability to create charts, or the ability to find and replace all instances of a term. </p><br/><p>We are interested in studying how people continue to learn about the functionality of applications, after they have already achieved competence.</p>"
         },
         {
             "questiontype": "radiolist",
@@ -30,7 +30,7 @@
         },
         {
             "questiontype":"radiogrid",
-            "instructions":"How many times a month (on average) do you use the following methods to learn new capabilities about an application?",
+            "instructions":"How many times a month (on average) do you use the following methods to learn new functions within an application?",
             "id":"tools",
             "shuffle": false,
             "required": "true",
@@ -88,7 +88,7 @@
         },
         {
             "questiontype": "field",
-            "instructions": "Are there any other methods you use to learn about new functions/capabilities, which are not listed above? (Optional)",
+            "instructions": "Are there any other methods you use to learn about new functions, which are not listed above? (Optional)",
             "placeholder": "",
             "id": "other"
         },
