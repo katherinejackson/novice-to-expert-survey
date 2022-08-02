@@ -5,8 +5,8 @@
     "questions": [
         {
             "questiontype": "textview",
-            "title": "Types of Learning",
-            "text": "<p>We are interested in studying how users become proficient/experts at using computer applications. Speciifically, we are interested in: <ol><li>How users learn to do the same tasks in better/faster ways</li><li>How users learn about new functions they previously didn't know the application could do</li></ol></p><p>You will now complete two questionnaires about these two different types of learning."
+            "title": "Instructions",
+            "text": "<p>We are interested in studying how users become proficient/experts at using computer applications. Specifically, we are interested in: <ol><li>How users learn to do the <b>same tasks</b> in <b>better/faster ways</b><ul><li>Eg: Learning the keyboard shortcut to save a document, rather than going through the menus to select 'save', is learning a faster way of accomplishing the same task.</li></ul></li><li>How users learn about <b>new functions</b> they previously didn't know the application could do<ul><li>Eg: Discovering that Microsoft Word allows users to add custom words to the spellcheck dictionary, so that they aren't underlined red, is learning new functionality.</li></ul></li></ol></p><p>You will now complete <b>two</b> questionnaires about these two different types of learning."
         }
     ]
 }

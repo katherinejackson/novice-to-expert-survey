@@ -1,11 +1,16 @@
 {
     "title": "Questionnaire",
-    "instructions": "Please answer the following questions:",
+    "instructions": "",
     "code": "",
     "questions": [
         {
             "questiontype": "textview",
-            "title": "Learning new functions within an application",
+            "title": "Part 2: Learning new functions within an application",
+            "text": "<p>You have just completed a questionnaire about learning to do the <b>same tasks better</b>.  The second questonnaire is about learning <b>new functionality.</b><p>"
+        },
+        {
+            "questiontype": "textview",
+            "title": "",
             "text": "<p>After a user has become competent enough at using an application to no longer be considered a novice, how do they continue to learn about all of the various functionality/capabilities the application has?</p><br/><p>For example, many people use Microsoft Word to complete their work, but not all users are aware of functions Microsoft Word provides such as a bibliography manager, the ability to create charts, or the ability to find and replace all instances of a term. </p><br/><p>We are interested in studying how people continue to learn about the functionality of applications, after they have already achieved competence.</p>"
         },
         {
@@ -35,7 +40,8 @@
             "shuffle": false,
             "required": "true",
             "labels":[
-                "0",
+                "Never",
+                "Less than 1",
                 "1",
                 "2",
                 "3",
@@ -75,6 +81,18 @@
                 {
                     "id": "youtube",
                     "text": "YouTube tutorial"
+                },
+                {
+                    "id": "course",
+                    "text": "Online course (eg: LinkedIn Learning)"
+                },
+                {
+                    "id": "internet",
+                    "text": "Internet search (eg: can application do X?)"
+                },
+                {
+                    "id": "mistake",
+                    "text": "Performed it by mistake when trying to do something else"
                 },
                 {
                     "id": "social_media",

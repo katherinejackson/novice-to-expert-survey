@@ -1,12 +1,17 @@
 {
     "title": "Questionnaire",
-    "instructions": "Please answer the following questions:",
+    "instructions": "",
     "code": "",
     "questions": [
         {
             "questiontype": "textview",
-            "title": "Learning better/faster ways of doing the same task",
-            "text": "<p>When there are multiple ways of completing the same task, how do users learn the 'better/expert' ways?  </p><br/><p>For example, using the keyboard shortcut to save a document instead of selecting 'save' from the menu is typically a faster way of accomplishing the same task. </p><br/><p>We are interested in learning what tools/methods users employ to learn these 'better/expert' techniques.</p>"
+            "title": "Part 1: Learning better/faster ways of doing the same task",
+            "text": "<p>The first questionnaire is about learning <b>better ways</b> of completing tasks that you <b>already do</b>. The next questionnaire will be about learning <b>new functionality.</b></p>"
+        },
+        {
+            "questiontype": "textview",
+            "title": "",
+            "text": "<p>When there are multiple ways of completing the same task, how do users learn the 'better/expert' ways?</p><br/><p>For example, using the keyboard shortcut to save a document instead of selecting 'save' from the menu is typically a faster way of accomplishing the same task. </p><br/><p>We are interested in learning what tools/methods users employ to learn these 'better/expert' techniques.</p>"
         },
         {
             "questiontype": "radiolist",
@@ -35,7 +40,8 @@
             "shuffle": false,
             "required": "true",
             "labels":[
-                "0",
+                "Never",
+                "Less than 1",
                 "1",
                 "2",
                 "3",
@@ -75,6 +81,18 @@
                 {
                     "id": "youtube",
                     "text": "YouTube tutorial"
+                },
+                {
+                    "id": "course",
+                    "text": "Online course (eg: LinkedIn Learning)"
+                },
+                {
+                    "id": "internet",
+                    "text": "Internet search (eg: How to do X faster)"
+                },
+                {
+                    "id": "mistake",
+                    "text": "Performed it by mistake when trying to do something else"
                 },
                 {
                     "id": "social_media",
