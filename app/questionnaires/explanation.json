@@ -6,7 +6,20 @@
         {
             "questiontype": "textview",
             "title": "Instructions",
-            "text": "<p>We are interested in studying how users become proficient/experts at using computer applications. Specifically, we are interested in: <ol><li>How users learn to do the <b>same tasks</b> in <b>better/faster ways</b><ul><li>Eg: Learning the keyboard shortcut to save a document, rather than going through the menus to select 'save', is learning a faster way of accomplishing the same task.</li></ul></li><li>How users learn about <b>new functions</b> they previously didn't know the application could do<ul><li>Eg: Discovering that Microsoft Word allows users to add custom words to the spellcheck dictionary, so that they aren't underlined red, is learning new functionality.</li></ul></li></ol></p><p>You will now complete <b>two</b> questionnaires about these two different types of learning."
+            "text": "<p>We are interested in studying how users become proficient/experts at using computer applications. We also want to check if you are paying attention, so please answer 0 to the question below.  Specifically, we are interested in: <br/><ol><li>How users learn about <b>new functions</b> they previously didn't know the application could do<ul><li>Eg: Discovering that Microsoft Word allows users to add custom words to the spellcheck dictionary, so that they aren't underlined red, is learning new functionality.</li></ul></li><li>How users learn to do the <b>same tasks</b> in <b>better/faster ways</b><ul><li>Eg: Learning the keyboard shortcut to save a document, rather than going through the menus to select 'save', is learning a faster way of accomplishing the same task.</li></ul></li></ol></p><p>You will now complete <b>two</b> questionnaires about these two different types of learning."
+        },
+        {
+            "questiontype": "radiolist",
+            "instructions": "How many different computer applications do you use on average per week?",
+            "id": "attention",
+            "required": true,
+            "labels":[
+                "0",
+                "1-2",
+                "3-4",
+                "5-6",
+                "6+"
+            ]
         }
     ]
 }

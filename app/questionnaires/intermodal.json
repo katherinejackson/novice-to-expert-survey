@@ -5,8 +5,8 @@
     "questions": [
         {
             "questiontype": "textview",
-            "title": "Part 1: Learning better/faster ways of doing the same task",
-            "text": "<p>The first questionnaire is about learning <b>better ways</b> of completing tasks that you <b>already do</b>. The next questionnaire will be about learning <b>new functionality.</b></p>"
+            "title": "Part 2: Learning better/faster ways of doing the same task",
+            "text": "<p>You have just completed a questionnaire about learning <b>new functionality</b>.  The second questonnaire is about learning how to do the <b>same tasks better</b><p>"
         },
         {
             "questiontype": "textview",
@@ -25,6 +25,54 @@
                 "4",
                 "5 (very interested)"
             ]
+        },
+        {
+            "questiontype": "textview",
+            "title": "Think of a time when you learned a better way of doing a task. Please answer the following 4 questions about that experience.",
+            "text": ""
+        },
+        {
+            "questiontype": "field",
+            "instructions": "1) What was the application?",
+            "placeholder": "",
+            "required": true,
+            "id": "ex_app"
+        },
+        {
+            "questiontype": "drop_down",
+            "instructions": "2) What method did you use to learn the better way of doing the same task?",
+            "id": "ex_method",
+            "required": true,
+            "items":[
+                "Saw it in menus",
+                "Saw it in hover help",
+                "Tip of the day",
+                "System suggestion other than tip of the day",
+                "System help page or manual",
+                "Someone told me about it",
+                "Saw another person doing it",
+                "YouTube tutorial",
+                "Online course (eg: LinkedIn Learning)",
+                "Internet search (eg: How to do X faster)",
+                "Performed it by mistake when trying to do something else",
+                "Saw it on social media",
+                "Read about it in an article",
+                "Other"
+            ]
+        },
+        {
+            "questiontype": "multi_field",
+            "instructions": "3) How were you doing the task previously (the bad/slow way)?",
+            "placeholder": "",
+            "required": true,
+            "id": "ex_old"
+        },
+        {
+            "questiontype": "multi_field",
+            "instructions": "4) What was the new/better way that you learned?",
+            "placeholder": "",
+            "required": true,
+            "id": "ex_new"
         },
         {
             "questiontype": "num_field",
@@ -110,13 +158,7 @@
             "placeholder": "",
             "id": "other"
         },
-        {
-            "questiontype": "multi_field",
-            "instructions": "Think of a time when you learned a better way of doing a task.  Please state the application, what method you used to learn this new information, and give a brief description of what you learned.",
-            "placeholder": "",
-            "required": true,
-            "id": "example"
-        },
+       
         {
             "questiontype": "field",
             "instructions": "Do you have any other comments? (Optional)",

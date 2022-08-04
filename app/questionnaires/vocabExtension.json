@@ -5,8 +5,8 @@
     "questions": [
         {
             "questiontype": "textview",
-            "title": "Part 2: Learning new functions within an application",
-            "text": "<p>You have just completed a questionnaire about learning to do the <b>same tasks better</b>.  The second questonnaire is about learning <b>new functionality.</b><p>"
+            "title": "Part 1: Learning new functions within an application",
+            "text": "<p>The first questionnaire is about learning <b>new functionality</b>. The next questionnaire will be about learning <b>better ways</b> of completing tasks that you <b>already do</b></p>"
         },
         {
             "questiontype": "textview",
@@ -25,6 +25,47 @@
                 "4",
                 "5 (very interested)"
             ]
+        },
+        {
+            "questiontype": "textview",
+            "title": "Think of a time when you learned a new functionality within an application. Please answer the following 3 questions about that experience.",
+            "text": ""
+        },
+        {
+            "questiontype": "field",
+            "instructions": "1) What was the application?",
+            "placeholder": "",
+            "required": true,
+            "id": "ex_app"
+        },
+        {
+            "questiontype": "drop_down",
+            "instructions": "2) What method did you use to learn new functionality?",
+            "id": "ex_method",
+            "required": true,
+            "items":[
+                "Saw it in menus",
+                "Saw it in hover help",
+                "Tip of the day",
+                "System suggestion other than tip of the day",
+                "System help page or manual",
+                "Someone told me about it",
+                "Saw another person doing it",
+                "YouTube tutorial",
+                "Online course (eg: LinkedIn Learning)",
+                "Internet search (eg: Can application do X)",
+                "Performed it by mistake when trying to do something else",
+                "Saw it on social media",
+                "Read about it in an article",
+                "Other"
+            ]
+        },
+        {
+            "questiontype": "multi_field",
+            "instructions": "3) What was the new functionality that you learned (brief description)?",
+            "placeholder": "",
+            "required": true,
+            "id": "ex_new"
         },
         {
             "questiontype": "num_field",
@@ -109,13 +150,6 @@
             "instructions": "Are there any other methods you use to learn about new functions, which are not listed above? (Optional)",
             "placeholder": "",
             "id": "other"
-        },
-        {
-            "questiontype": "multi_field",
-            "instructions": "Think of a time when you learned about a new functionality.  Please state the application, what method you used to learn this new information, and give a brief description of what you learned.",
-            "placeholder": "",
-            "required": true,
-            "id": "example"
         },
         {
             "questiontype": "field",
